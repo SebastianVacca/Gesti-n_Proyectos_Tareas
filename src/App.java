@@ -6,5 +6,7 @@ public class App {
         proyecto1.showProject();
         proyecto1.addTask(tarea1);
         proyecto1.showProject();
+
+        proyecto1.displayTasks();
     }
 }
