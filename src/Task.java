@@ -15,5 +15,12 @@ public class Task {
         return status;
     }
 
-    
+    public void taskCompleted(){
+        if (this.status.equalsIgnoreCase("completada")) {
+            System.out.println("La tarea ya está completada");
+        } else {
+            this.status = "completada";
+            System.out.println("Eatado de tarea actualizado: tarea " + this.getDescription() + " // " + this.getStatus());
+        }
+    }
 }

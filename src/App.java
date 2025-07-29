@@ -8,5 +8,8 @@ public class App {
         proyecto1.showProject();
 
         proyecto1.displayTasks();
+        tarea1.taskCompleted();
+        proyecto1.showProject();
+
     }
 }
